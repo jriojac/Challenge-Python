@@ -9,7 +9,7 @@ Identificar la tienda menos rentable basándose en:
 - 🌟 Reseñas de clientes
 - 🚚 Tiempo promedio de envío
 - 🛒 Categorías y productos más vendidos
-- 🌍 Distribución geográfica de ventas (extra opcional
+- 🌍 Distribución geográfica de ventas (extra opcional)
 
 
 ## 🧰 Tecnologías utilizadas
@@ -22,13 +22,26 @@ Identificar la tienda menos rentable basándose en:
 
 
 ## 🚀 Estructura del repositorio
-Challenge Python/
-├── data/             # Archivos CSV de cada tienda
-├── notebooks/        # Notebook principal con el análisis
-├── src/              # Funciones auxiliares y visualizaciones
-├── images/           # Gráficos exportados
-├── README.md         # Este archivo
-└── requirements.txt  # Dependencias del proyecto
+
+El proyecto está organizado para facilitar la navegación, el análisis y la reutilización del código. Cada carpeta tiene un propósito específico:
+
+| Carpeta / Archivo     | Descripción                                                  |
+|-----------------------|--------------------------------------------------------------|
+| `data/`               | Archivos CSV con los datos de ventas por tienda              |
+| `notebooks/`          | Notebook principal con el análisis completo                  |
+| `src/`                | Funciones auxiliares y scripts de visualización              |
+| `images/`             | Gráficos exportados para el README y presentaciones          |
+| `README.md`           | Documentación del proyecto                                   |
+| `requirements.txt`    | Lista de dependencias necesarias para ejecutar el proyecto   |
+
+
+📁 Challenge Python/
+├── 📂 data/              → Datos CSV por tienda
+├── 📂 notebooks/         → Notebook principal del análisis
+├── 📂 src/               → Funciones auxiliares y visualizaciones
+├── 📂 images/            → Gráficos exportados
+├── 📄 README.md          → Documentación del proyecto
+└── 📄 requirements.txt   → Dependencias del entorno
 
 
 ## 📊 Resultados esperados
@@ -41,9 +54,6 @@ Challenge Python/
 ## 📷 Visualizaciones destacadas
 ### Ingresos totales por tienda
 ![Ingresos por tienda](images/ingresos_tienda.png)
-
-### Mapa de calor geográfico con calificación e ingresos
-![Mapa de calor](images/mapa_calor.png)
 
 ### Distribución del costo de envío por tienda
 ![Costo de envío](images/costo_envio.png)
