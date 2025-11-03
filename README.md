@@ -35,15 +35,6 @@ El proyecto está organizado para facilitar la navegación, el análisis y la re
 | `requirements.txt`    | Lista de dependencias necesarias para ejecutar el proyecto   |
 
 
-📁 Challenge Python/
-├── 📂 data/              → Datos CSV por tienda
-├── 📂 notebooks/         → Notebook principal del análisis
-├── 📂 src/               → Funciones auxiliares y visualizaciones
-├── 📂 images/            → Gráficos exportados
-├── 📄 README.md          → Documentación del proyecto
-└── 📄 requirements.txt   → Dependencias del entorno
-
-
 ## 📊 Resultados esperados
 - Mínimo 3 tipos de gráficos: barras, circular, dispersión
 - Visualizaciones enriquecidas con anotaciones y comparaciones
