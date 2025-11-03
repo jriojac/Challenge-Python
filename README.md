@@ -21,13 +21,6 @@ Identificar la tienda menos rentable basándose en:
 - Jupyter Notebook / Google Colab
 
 
-## 📊 Resultados esperados
-- Mínimo 3 tipos de gráficos: barras, circular, dispersión
-- Visualizaciones enriquecidas con anotaciones y comparaciones
-- Conclusión ejecutiva con recomendación clara
-- Análisis opcional de desempeño geográfico con mapas de calo
-
-
 ## 🚀 Estructura del repositorio
 Challenge Python/
 ├── data/             # Archivos CSV de cada tienda
@@ -37,8 +30,30 @@ Challenge Python/
 ├── README.md         # Este archivo
 └── requirements.txt  # Dependencias del proyecto
 
+
+## 📊 Resultados esperados
+- Mínimo 3 tipos de gráficos: barras, circular, dispersión
+- Visualizaciones enriquecidas con anotaciones y comparaciones
+- Conclusión ejecutiva con recomendación clara
+- Análisis opcional de desempeño geográfico con mapas de calo
+
+
+## 📷 Visualizaciones destacadas
+### Ingresos totales por tienda
+![Ingresos por tienda](images/ingresos_tienda.png)
+
+### Mapa de calor geográfico con calificación e ingresos
+![Mapa de calor](images/mapa_calor.png)
+
+### Distribución del costo de envío por tienda
+![Costo de envío](images/costo_envio.png)
+
+
 📌 Conclusión del análisis
 Se recomienda vender Tienda 4, ya que presenta el rendimiento más débil en facturación, costos de envío y dominancia de categoría. Esta decisión permite optimizar recursos y fortalecer las tiendas con mayor potencial.
+
+![Radar comparativo](images/radar_comparativo.png)
+
 
 ## ✍️ Autor
 Jacqueline Rioja
